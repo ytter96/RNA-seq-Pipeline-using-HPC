@@ -3,8 +3,6 @@
 #SBATCH --partition tres72
 #SBATCH -o FASTQC_first_%j.txt
 #SBATCH -e FASTQC_first_%j.err
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=ytter@uark.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
 #SBATCH --time=03:00:00
